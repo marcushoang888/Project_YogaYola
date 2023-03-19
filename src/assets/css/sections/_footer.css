@@ -1,0 +1,28 @@
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.375rem 0;
+    background-color: var(--primary-white);
+}
+
+.footer-logo {
+    display: flex;
+}
+
+.footer-social {
+    display: flex;
+    gap: 1.25rem;
+}
+
+.footer-social_item {
+    width: 3.125rem;
+    height: 3.125rem;
+    border-radius: 50%;
+    box-shadow: var(--shadow-footer);
+    background-color: var(--primary-white);
+    color:  var(--primary-base);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

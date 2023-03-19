@@ -1,0 +1,37 @@
+/* INITIAL */
+
+@import url(./initial/_variables.css);
+@import url(./initial/_base.css);
+@import url(./initial/_utilities.css);
+
+
+/* COMPONENTS */
+
+@import url(./components/_container.css);
+@import url(./components/_text.css);
+@import url(./components/_background.css);
+@import url(./components/_button.css);
+@import url(./components/_class.css);
+@import url(./components/_courses.css);
+@import url(./components/_heading-description.css);
+@import url(./components/_icon.css);
+@import url(./components/_plan.css);
+@import url(./components/_slide.css);
+@import url(./components/_shadow.css);
+
+
+
+/* SECTIONS */
+
+@import url(./sections/_card.css);
+@import url(./sections/_classes.css);
+@import url(./sections/_contact.css);
+@import url(./sections/_features.css);
+@import url(./sections/_footer.css);
+@import url(./sections/_home.css);
+@import url(./sections/_information.css);
+@import url(./sections/_introduction.css);
+@import url(./sections/_navbar.css);
+@import url(./sections/_subscribe.css);
+@import url(./sections/_testimonial.css);
+

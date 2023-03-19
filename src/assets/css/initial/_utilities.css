@@ -1,0 +1,4 @@
+.active-slide {
+    display: block;
+    background-color: var(--primary-base);
+}

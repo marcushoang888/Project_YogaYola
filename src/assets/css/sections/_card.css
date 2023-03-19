@@ -1,0 +1,67 @@
+
+.card {
+    position: relative;
+}
+
+
+.card-container {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    gap: 2rem;
+
+}
+
+
+
+
+
+
+/* ////////////////////////////////////// */
+
+
+
+
+.card-item {
+    border-radius: var(--radius);
+    padding: 1.625rem;
+    box-shadow: var(--shadow-card);
+
+}
+
+.card-item-1,
+.card-item-2 {
+    background-color: var(--primary-white);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-item-3 {
+    background-color: var(--secondary-pink);
+    display: flex;
+    gap: 5rem;
+}
+
+.card-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-box a {
+    margin-top: 0.75rem;
+}
+.card-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 3.1875rem;
+}
+
+.card-item:not(:last-child) .card-content-number {
+    color: var(--other-stroke2)
+}
+
+.card-item:last-child .card-content-number {
+    color: var(--secondary-deeppink)
+}

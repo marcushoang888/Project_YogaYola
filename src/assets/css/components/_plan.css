@@ -1,0 +1,69 @@
+
+.plan {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2.125rem;
+}
+
+.plan-item {
+    background-color: var(--primary-white);
+    padding-bottom: 1.875rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.plan-header {
+    text-align: center;
+    border-bottom: 2px solid var(--other-stroke3);
+    padding: 2.2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+    flex-grow: 1;
+    
+}
+
+.plan-message {
+    text-align: center;
+    padding: 1.375rem 0;
+}
+
+.plan-description {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    padding:0 1.875rem;
+    flex-grow: 1;
+
+
+}
+.plan-description_item {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid var(--other-stroke3);
+    border-radius: var(--radius);
+
+}
+
+.plan-icon {
+    background-color:  var(--secondary-greenlight);
+    color: var(--secondary-green);
+    border-radius: 50%;
+    width: 1.75rem;
+    height: 1.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+
+}
+
+.plan-button {
+    padding:0 1.875rem;
+    margin-top: 2.5rem;
+    flex-grow: 0;
+
+}

@@ -1,0 +1,53 @@
+
+.information-container {
+
+    display: flex;
+    justify-content: space-between;
+    gap: 9.875rem;
+    align-items: center;
+    padding-top: 9.125rem;
+    padding-bottom: 18.75rem;
+}
+
+.information-detail {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2.25rem;
+}
+
+.information-detail_item h6 {
+    margin-top: 1rem;
+}
+
+.information-detail_item p{
+    margin-top: 0.625rem;
+
+}
+
+.information-heading {
+    position: relative;
+}
+
+.information-box_sign {
+    color: var(--primary-base);
+    margin-top: 3rem;
+}
+
+.information-box_name {
+    display: flex;
+    align-items: center;
+}
+.information-deco {
+    position: absolute;
+    right: 7rem;
+    bottom: 0
+}
+
+@media (max-width: 900px) {
+    .information-container {
+       
+        flex-direction: column-reverse;
+        gap: 3rem;
+    }
+}

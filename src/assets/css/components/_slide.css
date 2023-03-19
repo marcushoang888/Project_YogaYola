@@ -1,0 +1,21 @@
+
+.slide {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.slide-item {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    bordeR: 1px solid var(--other-stroke2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide-item-display {
+    width: 0.6rem;
+    height: 0.6rem;
+    border-radius: 50%;
+}

@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+
+:root {
+
+    /* COLOR */
+    /* Primary Color */
+    --primary-base: #FF9F66;
+    --primary-light: #FFF1E8;
+    --primary-baselight: #FFB081;
+    --primary-white: #FFFFFF;
+
+    /* Secondary Color */
+   --secondary-green: #258675;
+   --secondary-green2: #45A090;
+   --secondary-green3: #94CAC0;
+   --secondary-greenlight: #D4EEE9;
+   --secondary-yellow: #EDC988;
+   --secondary-pink : #FEAEA3;
+   --secondary-deeppink: #FF7D6B;
+   --secondary-pinklight: #FF7D6B;
+
+   /* Text color */
+   --text-heading: #1C110A;
+    --text-paragraph: #576165;
+
+    /* Other color */
+    --other-bg: #F5F6F9;
+    --other-stroke: #B0B4C0;
+    --other-shape: #E8EEF0;
+    --other-stroke2: #CFCFCF;
+    --other-stroke3: #F4F5F7;
+
+
+    /* FONT */
+    /* Normal Font */
+    --normal-font: 'Inter', sans-serif;
+
+    /* Speical Font */
+    --special-font: 'Homemade Apple', cursive;
+
+    
+    /* LAYOUT */
+    --container: 75rem;
+    --container-sm: 72rem;
+
+
+    /* BORDER RADIUS */
+    --radius: 0.375rem;
+    --radius-video-class: 1rem;
+
+    /* SHADOW */
+    --shadow-nav:  0px 18px 36px rgba(0, 0, 0, 0.05);
+    --shadow-class:  0px 18px 36px rgba(0, 0, 0, 0.07);
+    --shadow-card:  0px -10px 20px rgba(0, 0, 0, 0.05);
+    --shadow-testimonial:  0px 60px 150px -20px rgba(0, 0, 0, 0.04);
+    --shadow-contact:  0px 80.6px 105.701px rgba(51, 51, 51, 0.1);
+    --shadow-footer:  0px 10px 20px rgba(0, 0, 0, 0.05);
+}
