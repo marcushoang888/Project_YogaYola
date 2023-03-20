@@ -1,17 +1,18 @@
-.classes {
-    background-color: var(--primary-white);
-}
+
 .classes-container {
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: var(--primary-white);
+
 }
 
 .classes-bg {
     position: absolute;
-    z-index: -1;
+    z-index: 0;
+    width: 100%;
 }
 
 .classes-more {

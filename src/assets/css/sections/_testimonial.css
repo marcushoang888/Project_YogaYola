@@ -1,17 +1,18 @@
-.testimonial {
-    position: relative;
-}
+
 
 .testimonial-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
+
 }
 
 .testimonial-bg {
     position: absolute;
     z-index: -1;
+    width: 100%;
 }
 .testimonial-content {
     display: flex;

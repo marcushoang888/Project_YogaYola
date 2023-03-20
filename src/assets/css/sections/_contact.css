@@ -5,11 +5,13 @@
     grid-template-columns: repeat(2,1fr);
     align-items: center;
     gap: 4.625rem;
+    position: relative;
 }
 
 .contact-bg {
     position: absolute;
     z-index: -1;
+    width: 100%;
 }
 .contact-heading {
     padding-left: 3rem;
