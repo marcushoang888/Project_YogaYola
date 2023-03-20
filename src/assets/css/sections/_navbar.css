@@ -28,6 +28,9 @@
     gap: 4.375rem;
 }
 
+.navbar-sign {
+    display: flex;
+}
 .navbar-logo {
     display: flex;
 }
@@ -60,5 +63,12 @@
 
     .navbar-responsive {
         display: block;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .navbar-sign {
+        display: none;
     }
 }
