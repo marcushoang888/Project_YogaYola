@@ -5,8 +5,7 @@
     justify-content: space-between;
     gap: 9.875rem;
     align-items: center;
-    padding-top: 9.125rem;
-    padding-bottom: 18.75rem;
+    padding-top: var(--padding-bot);
 }
 
 .information-detail {
@@ -46,9 +45,6 @@
 
 @media (max-width: 900px) {
     .information-container {
-        padding-top: 5rem;
-    padding-bottom: 14.75rem;
-       
         flex-direction: column-reverse;
         gap: 3rem;
     }
@@ -56,8 +52,8 @@
 
 @media (max-width: 690px) {
     .information-container {
-        padding-top: 3rem;
-    padding-bottom: 10.75rem;
+        /* padding-top: 3rem;
+    padding-bottom: 10.75rem; */
 
     }
 }

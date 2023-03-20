@@ -130,6 +130,11 @@
 ## LAYOUT
 --container: 75rem
 --container-sm: 72rem
+--padding-bottom: 9.375
+responsive < 900 
+--padding-bototm: 4.37rem
+responsive < 690
+padding-bottom: 2rem
 
 ## BORDER RADIUS
 --radius: 0.375rem

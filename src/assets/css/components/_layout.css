@@ -1,0 +1,15 @@
+
+
+
+.information-container,
+.introduction-container,
+.classes-container,
+.features-container,
+.testimonial-container {
+    padding: var(--padding-bot) 0;
+}
+
+.information-container {
+    padding-bottom: calc(var(--padding-bot)*2);
+
+}

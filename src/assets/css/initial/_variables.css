@@ -57,4 +57,23 @@
     --shadow-testimonial:  0px 60px 150px -20px rgba(0, 0, 0, 0.04);
     --shadow-contact:  0px 80.6px 105.701px rgba(51, 51, 51, 0.1);
     --shadow-footer:  0px 10px 20px rgba(0, 0, 0, 0.05);
+
+    --padding-bot: 9.375rem;
+
+
+}
+
+
+@media (max-width: 900px) {
+    :root {
+    --padding-bot: 4.375rem;
+
+    }
+}
+
+@media (max-width: 690px) {
+    :root {
+    --padding-bot: 2.375rem;
+
+    }
 }

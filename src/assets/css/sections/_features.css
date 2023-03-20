@@ -6,7 +6,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 9.375rem 0;
 }
 
 @media (max-width: 900px) {

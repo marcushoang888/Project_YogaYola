@@ -2,9 +2,6 @@
     background-color: var(--other-bg);
 }
 
-.introduction-container {
-    padding-bottom: 9.375rem;
-}
 
 
 .introduction-video {
@@ -15,13 +12,13 @@
     height: 38.875rem;
     border-radius: var(--radius-video-class);
     transform: translateY(-30%);
+    margin-bottom: -5rem;
 }
 
 
 .introduction-content {
     display: flex;
     gap: 9.125rem;
-    margin-top: -8rem;
 }
 
 .introduction-content_heading {
@@ -43,11 +40,10 @@
     margin-bottom: 2.375rem;
 }
 
-@media (max-width: 600px) {
 
-}
 
 @media (max-width: 900px) {
+
     .introduction-content {
         flex-direction: column;
         gap: 2rem;
@@ -55,7 +51,9 @@
         justify-content: center;
         text-align: center;
     }
-
+    .introduction-content {
+        margin-top:2rem;
+    }
     .introduction-content_description {
         display: flex;
         flex-direction: column;
@@ -72,4 +70,8 @@
         height: 20rem;
   
     }
+}
+
+@media (max-width: 690px) {
+
 }

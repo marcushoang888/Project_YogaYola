@@ -1,13 +1,11 @@
 .testimonial {
     position: relative;
-    padding: 9.375rem 0;
 }
 
 .testimonial-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
     align-items: center;
 }
 
