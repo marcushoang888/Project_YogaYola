@@ -14,10 +14,6 @@
     z-index: -1;
 }
 
-
-
-
-
 .classes-more {
     margin-top: 3.125rem;
 }
@@ -25,6 +21,12 @@
 @media (max-width: 900px) {
     .classes-list {
         grid-template-columns: 1fr 1fr;
+
+    }
+
+    .classes-list li:last-child {
+        grid-column: 1/-1;
+        align-self: center;
 
     }
 }
