@@ -1,60 +1,92 @@
-
 .subscribe {
-    background-color: var(--secondary-green);
-    padding: 6.25rem 8.5rem;
-    text-align: center;
+  background-color: var(--secondary-green);
+  text-align: center;
+  padding: 4.375rem 0;
 }
 .subscribe-container {
-    border: 10px solid var(--secondary-green2);
+  border: 10px solid var(--secondary-green2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: var(--radius);
+  margin: 0 auto;
+  padding: 6.25rem 8.5rem;
+}
+
+.subscribe-box {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    border-radius: var(--radius);
-    padding: 4.375rem 12rem;
+    max-width: 47rem;
 
 }
 
 .subscribe-content {
-    margin-bottom: 3rem;
+  margin-bottom: 3rem;
 }
-.subscribe-content h4{
-    color: var(--primary-white);
-    margin-bottom: 1rem;
+.subscribe-content h4 {
+  color: var(--primary-white);
+  margin-bottom: 1rem;
 }
 
-.subscribe-content .p2{
-    color: var(--secondary-greenlight);
+.subscribe-content .p2 {
+  color: var(--secondary-greenlight);
 }
 
 .subscribe-submit {
-    display: flex;
-    align-items: center;
-    border: 1px solid var(--secondary-green2);
-    border-radius: var(--radius);
-
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--secondary-green2);
+  border-radius: var(--radius);
 }
 
+.inp {
+  display: flex;
+  
+}
 .subscribe-submit i {
-    font-size: 1.625rem;
-    color: var(--secondary-green2);
-    margin-left: 1.5rem;
+  font-size: 1.625rem;
+  color: var(--secondary-green2);
+  margin-left: 1.5rem;
+
 }
 
 .subscribe-submit_input {
-    margin-left: 0.625rem;
-    color: var(--primary-white);
-    width: 35rem;   
-    background-color: transparent;
-    outline: none;
+  margin-left: 0.625rem;
+  color: var(--primary-white);
+  background-color: transparent;
+  outline: none;
 
 }
 
 .subscribe-submit_input::placeholder {
-        color: var(--secondary-green3);
-
-
+  color: var(--secondary-green3);
 }
 
 .subscribe-submit_btn {
+}
+
+@media (max-width: 900px) {
+  .subscribe-container {
+    padding: 1.75rem 1rem;
+  }
+
+  .subscribe-submit {
+    flex-direction: column;
+    border: none;
+  }
+
+  .inp {
+    border: 1px solid var(--secondary-green2);
+    border-radius: var(--radius);
+    padding: 1rem 0;
+  }
+
+  .subscribe-submit_btn {
+    margin-top: 1.375rem;
+  }
+}
+
+@media (max-width: 690px) {
 }

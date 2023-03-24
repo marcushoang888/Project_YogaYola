@@ -12,6 +12,7 @@
     position: absolute;
     z-index: -1;
     width: 100%;
+    top: 0;
 }
 .contact-heading {
     padding-left: 3rem;
@@ -61,4 +62,10 @@
 }
 .contact-agree a {
     color: var(--primary-base);
+}
+
+@media (max-width: 900px) {
+    .contact-container {
+        grid-template-columns: 1fr;
+    }
 }

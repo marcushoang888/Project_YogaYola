@@ -15,8 +15,9 @@
     width: 100%;
 }
 .testimonial-content {
+    width: 100%;
+
     display: flex;
-    max-width: 46.1rem;
     overflow-x: scroll;
 }
 
@@ -39,6 +40,7 @@
 .testimonial-deco {
     position: absolute;
     z-index: 1;
+    width: 100%;
 
 }
 
@@ -63,3 +65,5 @@
 .testimonial-move {
     margin-top: 3.5rem;
 }
+
+
