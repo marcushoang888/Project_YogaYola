@@ -36,6 +36,7 @@
     padding: 1rem 1.5rem;
     border: 1px solid var(--other-stroke2);
     border-radius: var(--radius);
+    width: 100%;
 }
 
 .contact-type::placeholder {
@@ -46,6 +47,7 @@
     height: 10.3rem;
     color: var(--text-paragraph);
     font: inherit;
+    width: 100%;
 }
 
 .contact-agree {
@@ -66,6 +68,37 @@
 
 @media (max-width: 900px) {
     .contact-container {
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
     }
+
+    .contact-heading {
+        padding-left: 0;
+    }
+
+    .contact-form {
+        margin-top: 0rem;
+    }
+
+    
+}
+
+@media (max-width: 430px) {
+    .contact-agree {
+        display: inline-block;
+        text-align: center;
+    }
+    .contact-agree input {
+        display: block;
+        margin: 0 auto;
+
+    }
+    .contact-agree label {
+        display: inline-block;
+    }
+
+    .contact-type, .contact-message  {
+        font-size: 0.75rem;
+      }
 }
